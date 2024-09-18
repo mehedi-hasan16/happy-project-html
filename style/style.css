@@ -1,61 +1,86 @@
-.red{
-    color: red;
+.red {
+  color: red;
 }
-.uppercase{
-    text-transform: uppercase;
+.uppercase {
+  text-transform: uppercase;
 }
-.white{
-    color:white;
+.white {
+  color: white;
 }
-.text-center{
-    text-align: center;
+.text-center {
+  text-align: center;
 }
 .banner {
   background-image: url("../images/Banner\ Image.png");
   color: white;
-  
 }
-.banner-content{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.banner-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
-.off-section{
-    text-align: center;
+.off-section {
+  text-align: center;
 }
-.off-section >img{
-    width: 50%;
+.off-section > img {
+  width: 50%;
 }
-.midnight-party{
-    background-image: url('../images/Vectorrr.png');
+.midnight-party {
+  background-image: url("../images/Vectorrr.png");
 }
-.btn-join{
-    color: white;
-    font-weight: bold;
-    font-size: large;
-    background: none;
-    border: none;
-    cursor: pointer;
+.btn-join {
+  color: white;
+  font-weight: bold;
+  font-size: large;
+  background: none;
+  border: none;
+  cursor: pointer;
 }
-.btn-joinred{
-    background-color: red;
-    padding: 10px 20px;
-    border-radius: 5px;
-    border: none;
-    color: white;
-    font-weight: bold;
-    font-size: larger;
+.btn-joinred {
+  background-color: red;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: larger;
 }
-.event-section{
-    height: 300px;
-    background-image: linear-gradient(pink, rgba(255, 192, 203, 0.082));
-    border-radius: 5px;
-    
+.event-section {
+  height: 300px;
+  background-image: linear-gradient(pink, rgba(255, 192, 203, 0.082));
+  border-radius: 5px;
 }
-.event-section-content{
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.event-section-content {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.coming-soon {
+  display: flex;
+  gap: 50px;
+}
+.coming-soon-img {
+  border: 10px solid red;
+  padding: 10px;
+  border-radius: 50%;
+}
+.holiday-sale-img1 {
+  display: block;
+
+}
+.holiday-sale-img2 {
+  display: block;
+}
+.holiday-sale-img3 {
+  position: absolute;
+}
+.holiday-sale-img4 {
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+.holiday-sale-img-container {
+  position: relative;
 }
