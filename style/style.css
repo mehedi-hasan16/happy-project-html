@@ -1,0 +1,15 @@
+.banner {
+  background-image: url("../images/Banner\ Image.png");
+  color: white;
+  background-size:contain ;
+  background-repeat: no-repeat;
+  height: 450px;
+  
+}
+.banner-content{
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
