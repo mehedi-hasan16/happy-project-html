@@ -12,38 +12,64 @@
 .text-center {
   text-align: center;
 }
-.flex{
-    display: flex;
-    gap: 20px;
-    margin-top: 20px;
+.flex {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  margin-top: 20px;
 }
-header, main{
+header,
+main {
   margin: 0 92px;
 }
 /* end  */
 
-
-
 .banner {
   height: 600px;
-  background-image: url("../images/Banner\ Image.png");
+  background-image: url("../images/Banner\ Image.png"),
+    linear-gradient(rgb(0, 0, 0), rgba(255, 255, 255, 0));
+  background-blend-mode: multiply;
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   color: white;
+  border-radius: 15px;
 }
 .banner-content {
-
+  text-align: center;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .off-section {
+  margin-top: 80px;
   text-align: center;
 }
 .off-section > img {
   width: 50%;
 }
 .midnight-party {
+  margin-top: 80px;
   height: 600px;
-  background-image: url("../images/Vectorrr.png");
+  background-image: url("../images/Vectorrr.png"),
+    linear-gradient(to right, rgb(0, 0, 0), rgba(255, 255, 255, 0));
   background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-size: cover;
+  color: white;
+  border-radius: 15px;
 }
+
+.midnight-party-content {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 40px;
+}
+
 .btn-join {
   color: white;
   font-weight: bold;
@@ -67,49 +93,62 @@ header, main{
   border-radius: 5px;
 }
 .event-section-content {
+  margin-top: 80px;
   height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .coming-soon {
-  display: flex;
-  gap: 50px;
+  /* display: flex;
+  justify-content: space-between;
+  gap: 50px; */
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.grid-item {
+  padding: 40px;
 }
 .coming-soon-img {
   border: 10px solid red;
   padding: 10px;
   border-radius: 50%;
 }
-.hoilday-sale{
+.hoilday-sale {
+  margin-top: 80px;
 }
 .holiday-sale-img-container {
- position: relative;
+  position: relative;
 }
 
 .holiday-sale-img1 {
   float: right;
 }
 .holiday-sale-img2 {
-
+  width: 100%;
 }
 .holiday-sale-img3 {
   position: absolute;
   left: 0;
   top: 30px;
- 
 }
 .holiday-sale-img4 {
-position: absolute;
-right: 300px;
-top: 50px;
+  position: absolute;
+  right: 300px;
+  top: 50px;
 }
-.subscribe-container{
+.portfolio-section {
+  margin-top: 80px;
+}
+
+.subscribe-container {
+  margin: 80px 0;
   height: 400px;
   background-color: rgba(255, 192, 203, 0.316);
   border-radius: 5px;
 }
-.subscribe-btn{
+.subscribe-btn {
   padding: 15px 30px;
   width: 10%;
   border: none;
@@ -117,12 +156,31 @@ top: 50px;
   background: red;
   font-weight: bolder;
   border-radius: 0 50px 50px 0;
-  
 }
-.subscribe-email{
-padding: 15px 30px;
-width: 25%;
-border: none;
-background: white;
-border-radius: 50px 0 0 50px;
+.subscribe-email {
+  padding: 15px 30px;
+  width: 25%;
+  border: none;
+  background: white;
+  border-radius: 50px 0 0 50px;
+}
+footer {
+  background-color: black;
+  color: white;
+  padding: 50px 92px;
+}
+.footer-first {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-second {
+  text-align: center;
+  margin: 50px 0;
+}
+.footer-second > img {
+  margin-right: 30px;
+}
+.footer-third {
+  display: flex;
+  justify-content: space-between;
 }
