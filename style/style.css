@@ -1,3 +1,5 @@
+/* primary style */
+
 .red {
   color: red;
 }
@@ -10,15 +12,26 @@
 .text-center {
   text-align: center;
 }
+.flex{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+header, main{
+  margin: 0 92px;
+}
+/* end  */
+
+
+
 .banner {
+  height: 600px;
   background-image: url("../images/Banner\ Image.png");
+  background-repeat: no-repeat;
   color: white;
 }
 .banner-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+
 }
 .off-section {
   text-align: center;
@@ -27,7 +40,9 @@
   width: 50%;
 }
 .midnight-party {
+  height: 600px;
   background-image: url("../images/Vectorrr.png");
+  background-repeat: no-repeat;
 }
 .btn-join {
   color: white;
@@ -47,12 +62,12 @@
   font-size: larger;
 }
 .event-section {
-  height: 300px;
+  height: 400px;
   background-image: linear-gradient(pink, rgba(255, 192, 203, 0.082));
   border-radius: 5px;
 }
 .event-section-content {
-  height: 300px;
+  height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -66,21 +81,27 @@
   padding: 10px;
   border-radius: 50%;
 }
-.holiday-sale-img1 {
-  display: block;
+.hoilday-sale{
+}
+.holiday-sale-img-container {
+ position: relative;
+}
 
+.holiday-sale-img1 {
+  float: right;
 }
 .holiday-sale-img2 {
-  display: block;
+
 }
 .holiday-sale-img3 {
   position: absolute;
+  left: 0;
+  top: 30px;
+ 
 }
 .holiday-sale-img4 {
-  position: absolute;
-  right: 0;
-  top: 10px;
+position: absolute;
+right: 300px;
+top: 50px;
 }
-.holiday-sale-img-container {
-  position: relative;
-}
+
