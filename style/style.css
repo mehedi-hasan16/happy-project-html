@@ -104,4 +104,25 @@ position: absolute;
 right: 300px;
 top: 50px;
 }
-
+.subscribe-container{
+  height: 400px;
+  background-color: rgba(255, 192, 203, 0.316);
+  border-radius: 5px;
+}
+.subscribe-btn{
+  padding: 15px 30px;
+  width: 10%;
+  border: none;
+  color: white;
+  background: red;
+  font-weight: bolder;
+  border-radius: 0 50px 50px 0;
+  
+}
+.subscribe-email{
+padding: 15px 30px;
+width: 25%;
+border: none;
+background: white;
+border-radius: 50px 0 0 50px;
+}
